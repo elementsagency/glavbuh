@@ -256,11 +256,11 @@ h1{
     font-weight: 600;
     margin: 20px 0 30px;
 }
-#hero h4{
+#hero .h4{
     justify-content: start;
     font-size: 16px;
 }
-h3{
+.h3{
     font-size: 18px;
     font-weight: 400;
 }
@@ -288,7 +288,7 @@ h3{
     h1{
         font-size: 64px;
     }
-    h3{
+    .h3{
         width: 70%;
         font-size: 24px;
     }
@@ -365,7 +365,7 @@ h3{
     linear-gradient(to top, #02165a 0%, transparent 60%),
     url(../img/services/service5.webp) no-repeat center / cover;
 }
-h4{
+.h4{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -445,7 +445,7 @@ hr {
   border-bottom: 0px solid transparent; /* orange bottom border on hover */
 }
 @media (min-width: 992px){
-    h4{
+    .h4{
         font-size: 22px;
     }
     h2{
@@ -457,7 +457,7 @@ hr {
 
 /* about */
 
-#about h4, #work-process h4, #why-choose-us h4{
+#about .h4, #work-process .h4, #why-choose-us .h4{
     justify-content: start;
 }
 #about h2, #work-process h2, #why-choose-us h2{
@@ -1101,7 +1101,7 @@ footer{
 #not-found h1{
     font-size: 100px;
 }
-#not-found h4{
+#not-found .h4{
     font-size: 16px;
     text-align: center;
 }
@@ -1109,7 +1109,7 @@ footer{
    #not-found h1{
         font-size: 200px;
     }
-    #not-found h4{
+    #not-found .h4{
         font-size: 20px;
     } 
 }
@@ -1118,7 +1118,7 @@ footer{
 
 /* submission */
 
-#submission h4{
+#submission .h4{
     display: block;
     text-align: center;  
 }
